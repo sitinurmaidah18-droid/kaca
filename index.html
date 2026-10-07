@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="id">
+ <head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261007-02-2b1f90a","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo Black":"YACgEZulLoA,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Baloo 2":"YAHO2IcQUcM,0","Barlow Condensed":"YAFdJljEuFc,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Cinzel":"YACgEeV8bIQ,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Figtree":"YAHO2b-mV7A,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Fredoka":"YACgEZml080,0","Georgia":"YAGzXkO0pEM,0","Hanken Grotesk":"YAHO2VB9G0I,0","Helvetica":"YAFcf7zkXN0,0","IBM Plex Mono":"YAFdJkmvhGI,0","IBM Plex Sans":"YAFdJgT0SHI,0","Impact":"YAFcfnjI7Vk,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Italiana":"YAHO2Toik_w,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Karla":"YAHO2V2NSXM,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Noto Sans JP":"YAFdJiHXlcI,0","Noto Sans KR":"YAGsojZj-RQ,0","Nunito Sans":"YAFdtQJYB9w,1","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Outfit":"YAHO2nVlg14,0","Pacifico":"YADLjORQ1u4,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAHO2gdhi18,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Sarabun":"YAFdJssSnME,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Space Mono":"YADW1-vpsoc,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/6542d56fbfe7a3eb.telemetry_sdk.js" integrity="sha512-ECdM0nK7EkwDuOqho2qxgyRQXyBHk9hZqRKMBr+Xsu6zjeHlt+qkO2N2YRiHN7Kg4e1fEHDhjIp4bGJYVypv1g=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jelajah Simbol Pancasila</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Fraunces:wght@700;900&amp;display=swap" rel="stylesheet">
+  <style>
+  body{font-family:'DM Sans',sans-serif;}
+  .display{font-family:'Fraunces',serif;}
+  .bg-batik{background-image:radial-gradient(circle at 20px 20px, rgba(255,255,255,.08) 3px, transparent 4px);background-size:40px 40px;}
+  .card{transition:transform .2s, box-shadow .2s, outline-color .2s;outline:4px solid transparent;cursor:pointer;touch-action:none;user-select:none;}
+  .card:hover{transform:translateY(-2px);}
+  .card:focus-visible{outline-color:#facc15;}
+  .card.selected{outline-color:#facc15;transform:scale(1.03);}
+  .card.done{cursor:default;opacity:.85;}
+  .dot{width:22px;height:22px;border-radius:999px;border:4px solid #7f1d1d;background:#fff;flex-shrink:0;}
+  .team-card.active{outline:4px solid #facc15;transform:scale(1.04);}
+  .team-card{transition:transform .2s;}
+  .pop{animation:pop .4s ease;}
+  @keyframes pop{0%{transform:scale(.8);opacity:0}100%{transform:scale(1);opacity:1}}
+  .rise{animation:rise .6s ease both;}
+  @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+  .emoji{font-size:clamp(28px,4vw,44px);line-height:1;}
+</style>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="/_sdk/6c2ecc939521f244.data_sdk.js" type="text/javascript" integrity="sha512-gRx8s+XsZDN6mSIQu2sivLZysbV0WHhb5kXNUWlgVb5lCMU1foJYukyMEDPv8Tnoocb8iwqB4XdRrWc7oEGzIQ=="></script>
+  <script src="/_sdk/076b13200873adb1.editing_sdk.js" type="text/javascript" integrity="sha512-ZtNtm8+39bIBEM+BqVFLF2DGJcZDSJkgYAfQa13MND+siMeCmOpG2FoU1Iv6fGQyEH3Y1nIM5T9xiJG2Bq/ozw=="></script>
+  <script src="/_sdk/ab4336f91e694f96.resizing_sdk.js" type="text/javascript" integrity="sha512-cxmeUrBrNlwwLr+tEu/iwM5F3boeK4qDMoH3QjUPqJptkO5NkaDVhQvyIHIn+3EflI5/uubWzkSA78B1tCswgA=="></script>
+ </head>
+ <body data-template-id="__page-root" class="w-full min-h-screen bg-batik">
+  <div class="w-full min-h-screen flex flex-col">
+   <header data-template-id="game-header" class="canva-header w-full px-4 md:px-8 py-4 shadow-lg">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+     <div><span data-template-id="subject-tag" class="canva-tag inline-block px-3 py-1 rounded-full mb-1"></span>
+      <h1 data-template-id="game-title" class="canva-text display"></h1>
+      <p data-template-id="game-subtitle" class="canva-text"></p>
+     </div>
+     <div class="flex gap-2"><button id="next-btn" data-template-id="next-team-button" type="button" class="canva-button px-4 py-2 rounded-xl font-bold shadow focus-visible:ring-4 ring-yellow-300"></button> <button id="reset-btn" data-template-id="reset-button" type="button" class="canva-button px-4 py-2 rounded-xl font-bold shadow focus-visible:ring-4 ring-yellow-300"></button>
+     </div>
+    </div>
+   </header>
+   <main class="w-full flex-1 px-4 md:px-8 py-5">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-[240px_1fr] gap-5">
+     <aside data-template-id="teams-panel" class="canva-panel rounded-3xl p-4 shadow-xl rise">
+      <h2 data-template-id="teams-title" class="canva-text display mb-3"></h2>
+      <div class="grid grid-cols-2 lg:grid-cols-1 gap-3">
+       <div data-template-id="team-1" class="canva-card team-card rounded-2xl p-3 flex justify-between items-center" data-team="0"><span data-template-id="team-1-name" class="canva-text font-bold"></span> <span data-template-id="team-score" class="canva-text font-bold score">0</span>
+       </div>
+       <div data-template-id="team-2" class="canva-card team-card rounded-2xl p-3 flex justify-between items-center" data-team="1"><span data-template-id="team-2-name" class="canva-text font-bold"></span> <span data-template-id="team-score" class="canva-text font-bold score">0</span>
+       </div>
+       <div data-template-id="team-3" class="canva-card team-card rounded-2xl p-3 flex justify-between items-center" data-team="2"><span data-template-id="team-3-name" class="canva-text font-bold"></span> <span data-template-id="team-score" class="canva-text font-bold score">0</span>
+       </div>
+       <div data-template-id="team-4" class="canva-card team-card rounded-2xl p-3 flex justify-between items-center" data-team="3"><span data-template-id="team-4-name" class="canva-text font-bold"></span> <span data-template-id="team-score" class="canva-text font-bold score">0</span>
+       </div>
+      </div>
+      <div class="mt-4 rounded-2xl p-3 bg-white/70 text-center">
+       <p data-template-id="turn-label" class="canva-text"></p>
+       <p id="turn-name" data-template-id="turn-name" class="canva-text display" aria-live="polite"></p>
+      </div>
+     </aside>
+     <section data-template-id="board" class="canva-section relative rounded-3xl p-4 md:p-6 shadow-xl rise" style="animation-delay:.15s">
+      <h2 data-template-id="board-instruction" class="canva-text text-center mb-2"></h2>
+      <div class="h-12 flex items-center justify-center mb-2" aria-live="polite">
+       <p id="fb-ok" data-template-id="feedback-correct" class="canva-text hidden px-4 py-2 rounded-full pop"></p>
+       <p id="fb-bad" data-template-id="feedback-wrong" class="canva-text hidden px-4 py-2 rounded-full pop"></p>
+      </div>
+      <div id="play" class="relative grid grid-cols-2 gap-x-10 md:gap-x-28">
+       <svg id="lines" class="absolute inset-0 w-full h-full pointer-events-none z-10" aria-hidden="true"></svg>
+       <div class="flex flex-col gap-3">
+        <div tabindex="0" role="button" data-side="L" data-key="1" data-template-id="sym-1" class="canva-card card rounded-2xl p-3 flex items-center gap-3 justify-between">
+         <span class="emoji">⭐</span><span data-template-id="sym-1-label" class="canva-text font-bold flex-1"></span><span class="dot"></span>
+        </div>
+        <div tabindex="0" role="button" data-side="L" data-key="2" data-template-id="sym-2" class="canva-card card rounded-2xl p-3 flex items-center gap-3 justify-between">
+         <span class="emoji">⛓️</span><span data-template-id="sym-2-label" class="canva-text font-bold flex-1"></span><span class="dot"></span>
+        </div>
+        <div tabindex="0" role="button" data-side="L" data-key="3" data-template-id="sym-3" class="canva-card card rounded-2xl p-3 flex items-center gap-3 justify-between">
+         <span class="emoji">🌳</span><span data-template-id="sym-3-label" class="canva-text font-bold flex-1"></span><span class="dot"></span>
+        </div>
+        <div tabindex="0" role="button" data-side="L" data-key="4" data-template-id="sym-4" class="canva-card card rounded-2xl p-3 flex items-center gap-3 justify-between">
+         <span class="emoji">🐃</span><span data-template-id="sym-4-label" class="canva-text font-bold flex-1"></span><span class="dot"></span>
+        </div>
+        <div tabindex="0" role="button" data-side="L" data-key="5" data-template-id="sym-5" class="canva-card card rounded-2xl p-3 flex items-center gap-3 justify-between">
+         <span class="emoji">🌾</span><span data-template-id="sym-5-label" class="canva-text font-bold flex-1"></span><span class="dot"></span>
+        </div>
+       </div>
+       <div id="right-col" class="flex flex-col gap-3">
+        <div tabindex="0" role="button" data-side="R" data-key="1" data-template-id="sila-1" class="canva-card card rounded-2xl p-3 flex items-center gap-3">
+         <span class="dot"></span><span data-template-id="sila-1-text" class="canva-text"></span>
+        </div>
+        <div tabindex="0" role="button" data-side="R" data-key="2" data-template-id="sila-2" class="canva-card card rounded-2xl p-3 flex items-center gap-3">
+         <span class="dot"></span><span data-template-id="sila-2-text" class="canva-text"></span>
+        </div>
+        <div tabindex="0" role="button" data-side="R" data-key="3" data-template-id="sila-3" class="canva-card card rounded-2xl p-3 flex items-center gap-3">
+         <span class="dot"></span><span data-template-id="sila-3-text" class="canva-text"></span>
+        </div>
+        <div tabindex="0" role="button" data-side="R" data-key="4" data-template-id="sila-4" class="canva-card card rounded-2xl p-3 flex items-center gap-3">
+         <span class="dot"></span><span data-template-id="sila-4-text" class="canva-text"></span>
+        </div>
+        <div tabindex="0" role="button" data-side="R" data-key="5" data-template-id="sila-5" class="canva-card card rounded-2xl p-3 flex items-center gap-3">
+         <span class="dot"></span><span data-template-id="sila-5-text" class="canva-text"></span>
+        </div>
+       </div>
+      </div>
+     </section>
+    </div>
+   </main>
+   <footer class="w-full px-4 py-3 text-center">
+    <p data-template-id="footer-note" class="canva-text"></p>
+   </footer>
+  </div>
+  <div id="win" class="hidden fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+   <div data-template-id="win-panel" class="canva-panel pop rounded-3xl p-8 max-w-md w-full text-center shadow-2xl" role="dialog" aria-modal="true" aria-labelledby="win-h">
+    <div class="text-6xl mb-2" aria-hidden="true">
+     🏆🇮🇩
+    </div>
+    <h2 id="win-h" data-template-id="win-title" class="canva-text display"></h2>
+    <p data-template-id="win-text" class="canva-text mt-2"></p>
+    <p id="winner" data-template-id="winner-name" class="canva-text display my-3"></p><button id="again-btn" data-template-id="play-again-button" type="button" class="canva-button px-6 py-3 rounded-xl font-bold focus-visible:ring-4 ring-yellow-300"></button>
+   </div>
+  </div>
+  <script>
+const TEAM_NAMES=['Kelompok Merah','Kelompok Biru','Kelompok Hijau','Kelompok Kuning'];
+const TEAM_COLORS=['#dc2626','#2563eb','#16a34a','#ca8a04'];
+let scores,turn,matched,lines,sel,drag;
+const play=document.getElementById('play'),svg=document.getElementById('lines');
+const teams=[...document.querySelectorAll('.team-card')];
+
+function dotPos(card){
+  const d=card.querySelector('.dot').getBoundingClientRect(),p=play.getBoundingClientRect();
+  return {x:d.left+d.width/2-p.left,y:d.top+d.height/2-p.top};
+}
+function mkLine(a,b,color,dash){
+  const l=document.createElementNS('http://www.w3.org/2000/svg','line');
+  l.setAttribute('x1',a.x);l.setAttribute('y1',a.y);l.setAttribute('x2',b.x);l.setAttribute('y2',b.y);
+  l.setAttribute('stroke',color);l.setAttribute('stroke-width','6');l.setAttribute('stroke-linecap','round');
+  if(dash)l.setAttribute('stroke-dasharray','10 8');
+  svg.appendChild(l);return l;
+}
+function redraw(){
+  svg.innerHTML='';
+  lines.forEach(o=>mkLine(dotPos(o.a),dotPos(o.b),o.color));
+}
+function shuffle(){
+  const order=[0,1,2,3,4].sort(()=>Math.random()-.5);
+  if(order.every((v,i)=>v===i))order.reverse();
+  document.querySelectorAll('#right-col .card').forEach((c,i)=>c.style.order=order[i]);
+}
+function renderTeams(){
+  teams.forEach((t,i)=>{t.querySelector('.score').textContent=scores[i];t.classList.toggle('active',i===turn);});
+  document.getElementById('turn-name').textContent=TEAM_NAMES[turn];
+  document.getElementById('turn-name').style.color=TEAM_COLORS[turn];
+}
+let fbTimer;
+function feedback(ok){
+  const a=document.getElementById(ok?'fb-ok':'fb-bad'),b=document.getElementById(ok?'fb-bad':'fb-ok');
+  b.classList.add('hidden');a.classList.remove('hidden');
+  a.classList.remove('pop');void a.offsetWidth;a.classList.add('pop');
+  clearTimeout(fbTimer);fbTimer=setTimeout(()=>a.classList.add('hidden'),1600);
+}
+function tone(ok){
+  try{const c=new (window.AudioContext||window.webkitAudioContext)(),o=c.createOscillator(),g=c.createGain();
+    o.frequency.value=ok?660:200;o.type=ok?'sine':'square';g.gain.value=.08;o.connect(g);g.connect(c.destination);
+    o.start();g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.35);o.stop(c.currentTime+.4);}catch(e){}
+}
+function attempt(L,R){
+  if(L.classList.contains('done')||R.classList.contains('done'))return;
+  if(L.dataset.key===R.dataset.key){
+    L.classList.add('done');R.classList.add('done');
+    lines.push({a:L,b:R,color:TEAM_COLORS[turn]});redraw();
+    scores[turn]+=10;matched++;feedback(true);tone(true);renderTeams();
+    if(matched===5)setTimeout(showWin,700);
+  }else{
+    const l=mkLine(dotPos(L),dotPos(R),'#ef4444',true);
+    setTimeout(()=>l.remove(),700);
+    feedback(false);tone(false);turn=(turn+1)%4;renderTeams();
+  }
+}
+function showWin(){
+  const max=Math.max(...scores);
+  const w=TEAM_NAMES.filter((n,i)=>scores[i]===max).join(' & ');
+  document.getElementById('winner').textContent=w+' ('+max+' poin)';
+  document.getElementById('win').classList.remove('hidden');
+  document.getElementById('again-btn').focus();
+}
+function clearSel(){if(sel)sel.classList.remove('selected');sel=null;}
+function pick(card){
+  if(card.classList.contains('done'))return;
+  if(!sel){sel=card;card.classList.add('selected');return;}
+  if(sel===card){clearSel();return;}
+  if(sel.dataset.side===card.dataset.side){clearSel();sel=card;card.classList.add('selected');return;}
+  const L=sel.dataset.side==='L'?sel:card,R=sel.dataset.side==='L'?card:sel;
+  clearSel();attempt(L,R);
+}
+document.querySelectorAll('.card').forEach(c=>{
+  c.addEventListener('pointerdown',e=>{
+    if(c.classList.contains('done'))return;
+    e.preventDefault();
+    drag={from:c,moved:false,start:{x:e.clientX,y:e.clientY},line:null};
+  });
+  c.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();pick(c);}});
+});
+window.addEventListener('pointermove',e=>{
+  if(!drag)return;
+  if(!drag.moved&&Math.hypot(e.clientX-drag.start.x,e.clientY-drag.start.y)>8){
+    drag.moved=true;clearSel();drag.line=mkLine(dotPos(drag.from),dotPos(drag.from),TEAM_COLORS[turn],true);
+  }
+  if(drag.line){const p=play.getBoundingClientRect();drag.line.setAttribute('x2',e.clientX-p.left);drag.line.setAttribute('y2',e.clientY-p.top);}
+});
+window.addEventListener('pointerup',e=>{
+  if(!drag)return;
+  const d=drag;drag=null;
+  if(!d.moved){pick(d.from);return;}
+  d.line&&d.line.remove();
+  const el=document.elementFromPoint(e.clientX,e.clientY);
+  const t=el&&el.closest('.card');
+  if(t&&t.dataset.side!==d.from.dataset.side){
+    const L=d.from.dataset.side==='L'?d.from:t,R=d.from.dataset.side==='L'?t:d.from;attempt(L,R);
+  }
+});
+function reset(){
+  scores=[0,0,0,0];turn=0;matched=0;lines=[];sel=null;drag=null;
+  document.querySelectorAll('.card').forEach(c=>c.classList.remove('done','selected'));
+  document.getElementById('win').classList.add('hidden');
+  shuffle();svg.innerHTML='';renderTeams();
+}
+document.getElementById('reset-btn').addEventListener('click',reset);
+document.getElementById('again-btn').addEventListener('click',reset);
+document.getElementById('next-btn').addEventListener('click',()=>{turn=(turn+1)%4;clearSel();renderTeams();});
+window.addEventListener('resize',()=>requestAnimationFrame(redraw));
+reset();
+</script>
+ </body>
+</html>
